@@ -1,0 +1,39 @@
+{
+  "name": "Less2Stylus",
+  "version": "0.0.0",
+  "author": "Reid Roman",
+  "description": "A command-line CSS-preprocessor converter from Less to Stylus",
+  "contributors": [ 
+    {
+      "name": "Reid Roman",
+      "email": "reid@reidroman.com"
+    } 
+  ],
+  "bin": {
+    "l2s": "./bin/l2s"
+  },
+//TODO change main required file
+  "main": "./lib/http-server",
+  "repository": {
+    "type": "git",
+//TODO push to github
+    "url": "https://github.com/nodejitsu/http-server.git"
+  },
+  "keywords": [
+    "l2s",
+    "less",
+    "stylus",
+    "less2stylus"
+  ],
+  "dependencies" : {
+//TODO specify version
+    "less": "*"
+  },
+//TODO create test cases
+  "devDependencies": {
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
