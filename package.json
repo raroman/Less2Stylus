@@ -12,12 +12,10 @@
   "bin": {
     "l2s": "./bin/l2s"
   },
-//TODO change main required file
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-//TODO push to github
-    "url": "https://github.com/nodejitsu/http-server.git"
+    "url": "https://github.com/raroman/Less2Stylus.git"
   },
   "keywords": [
     "l2s",
@@ -26,10 +24,8 @@
     "less2stylus"
   ],
   "dependencies" : {
-//TODO specify version
-    "less": "*"
+    "less": "~1.3.3"
   },
-//TODO create test cases
   "devDependencies": {
   },
   "license": "MIT",
